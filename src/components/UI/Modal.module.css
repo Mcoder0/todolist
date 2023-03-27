@@ -1,0 +1,40 @@
+.Modal {
+    position: fixed;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 200px;
+    width: 400px;
+    color: #666;
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: #fee0e0;
+}
+
+.Modal span {
+    display: block;
+    height: 130px;
+    text-align: center;
+    line-height: 130px;
+}
+
+.Modal div {
+    display: flex;
+    height: 50px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.Modal button {
+    width: 60px;
+    height: 35px;
+    color: #666;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 2px 2px 5px #ccc;
+    margin: 0;
+}
+
+.Modal button:hover {
+    cursor: pointer;
+}
